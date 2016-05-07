@@ -1,9 +1,6 @@
-
-# <%= name %>
+## <%= name %>
 
 <%= description %>
-
-## how
 
 ### install
 
@@ -13,7 +10,7 @@ cd <% name %>
 npm install
 ```
 
-## develop
+### develop
 
 ```
 npm start
@@ -21,13 +18,13 @@ npm start
 
 browse to <http://localhost:9966/>.
 
-## test
+### test
 
 ```
 npm test
 ```
 
-## deploy
+### deploy
 
 ```
 npm run deploy

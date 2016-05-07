@@ -1,31 +1,34 @@
 {
-  "name": "slush-pages",
-  "version": "1.4.2",
-  "description": "a slush generator for static pages using browserify",
+  "name": "slush-threejs",
+  "version": "1.0.0",
+  "description": "a slush generator for three.js static pages using browserify",
   "main": "slushfile.js",
   "scripts": {
     "test": "tape test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahdinosaur/slush-pages"
+    "url": "https://github.com/ahdinosaur/slush-threejs"
   },
   "keywords": [
     "slush",
     "slushgenerator",
     "generator",
     "scaffold",
-    "pages",
     "static",
     "gh-pages",
-    "ghpages"
+    "ghpages",
+    "three",
+    "three-js",
+    "threejs",
+    "three.js"
   ],
-  "author": "ahdinosaur",
+  "author": "data-doge, ahdinosaur",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ahdinosaur/slush-pages/issues"
+    "url": "https://github.com/enspiral-cherubi/slush-threejs/issues"
   },
-  "homepage": "https://github.com/ahdinosaur/slush-pages",
+  "homepage": "https://github.com/enspiral-cherubi/slush-threejs",
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-conflict": "^0.3.0",

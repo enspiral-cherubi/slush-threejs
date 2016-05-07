@@ -1,15 +1,13 @@
 # slush-pages
 
-[![Build Status](https://secure.travis-ci.org/ahdinosaur/slush-pages.png?branch=master)](https://travis-ci.org/ahdinosaur/slush-pages) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-pages.png)](http://badges.enytc.com/for/npm/slush-pages)
-
-> a slush generator for static pages using browserify
+> a slush generator for three.js static pages using browserify
 
 ## Getting Started
 
 Install `slush` and `slush-pages` globally:
 
 ```bash
-$ npm install -g slush slush-pages
+$ npm install -g slush slush-threejs
 ```
 
 ### Usage
@@ -17,13 +15,13 @@ $ npm install -g slush slush-pages
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-pages
+$ mkdir my-slush-threejs
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-pages && slush pages
+$ cd my-slush-threejs && slush threejs
 ```
 
 Woo! Check out the generated README for more usage information.

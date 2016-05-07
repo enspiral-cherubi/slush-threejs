@@ -1,3 +1,26 @@
-main {
+html, body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
+#three-canvas {
+  height: 100%;
+  width: 100%;
+}
+
+/* loading screen */
+
+#loading-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 1000;
+}
+
+#loading-msg {
   text-align: center;
+  font-size: 18px;
+  letter-spacing: 3px;
 }
