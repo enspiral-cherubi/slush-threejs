@@ -1,5 +1,8 @@
 import THREE from 'three'
 import $ from 'jquery'
+import ThreeOrbitControls from 'three-orbit-controls'
+var OrbitControls = ThreeOrbitControls(THREE)
+import WindowResize from 'three-window-resize'
 
 class Environment {
 
@@ -14,7 +17,6 @@ class Environment {
     this.renderer = new THREE.WebGLRenderer({alpha: true, canvas: $('#three-canvas')[0]})
     this.renderer.setSize(window.innerWidth, window.innerHeight)
     this.renderer.setClearColor(0xffffff, 1)
-    $('body').append(this.renderer.domElement)
 
     var windowResize = new WindowResize(this.renderer, this.camera)
 
@@ -41,3 +43,5 @@ class Environment {
   }
 
 }
+
+export default Environment

@@ -23,4 +23,4 @@ class Engine {
 
 }
 
-export default new Engine
+export default Engine
