@@ -1,10 +1,10 @@
-# slush-pages
+# slush-threejs
 
 > a slush generator for three.js static pages using browserify
 
 ## Getting Started
 
-Install `slush` and `slush-pages` globally:
+Install `slush` and `slush-threejs` globally:
 
 ```bash
 $ npm install -g slush slush-threejs

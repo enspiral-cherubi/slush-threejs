@@ -1,6 +1,6 @@
 {
   "name": "slush-threejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a slush generator for three.js static pages using browserify",
   "main": "slushfile.js",
   "scripts": {
