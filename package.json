@@ -1,6 +1,6 @@
 {
   "name": "slush-threejs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a slush generator for three.js static pages using browserify",
   "main": "slushfile.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahdinosaur/slush-threejs"
+    "url": "https://github.com/enspiral-cherubi/slush-threejs"
   },
   "keywords": [
     "slush",
