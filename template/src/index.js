@@ -1,4 +1,4 @@
-import Engine from './engine'
+const Engine = require('./engine')
 
 var engine = new Engine()
 engine.bindEventListeners()

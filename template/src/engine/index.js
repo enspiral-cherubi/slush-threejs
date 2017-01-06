@@ -1,8 +1,7 @@
-import THREE from 'three'
-import Environment from './environment'
-import View from './view'
-import $ from 'jquery'
-import loop from 'raf-loop'
+const Environment = require('./environment')
+const View = require('./view')
+const $ = require('jquery')
+const loop = require('raf-loop')
 
 class Engine {
 
@@ -16,11 +15,11 @@ class Engine {
   }
 
   start () {
-    loop((t) => {
+    loop(t => {
       this.environment.render()
     }).start()
   }
 
 }
 
-export default Engine
+module.exports = Engine

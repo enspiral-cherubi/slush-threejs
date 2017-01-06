@@ -1,11 +1,11 @@
-import $ from 'jquery'
+const $ = require('jquery')
 
 class View {
-  
+
   closeLoadingScreen () {
     $('#loading-screen').hide()
   }
 
 }
 
-export default View
+module.exports = View
